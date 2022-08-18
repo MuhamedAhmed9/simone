@@ -1,0 +1,504 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*start navbar section */
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3px 40px;
+    height: 50px;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    position: relative;
+  }
+  /*
+  .navbar ul::before {
+    content: "Hover Me";
+    display: block;
+    margin-bottom: 5px;
+  }
+  */
+  .navbar .logo {
+    width: 45%;
+  }
+  .navbar .nav-links {
+    width: 60%;
+  }
+  .navbar ul li {
+    text-align: left;
+  }
+  .navbar ul::before {
+    content: "";
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    width: 50px;
+    height: 22px;
+    display: block;
+    margin: 0 0 8px;
+    margin-left: auto;
+  }
+  .navbar ul::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 12px;
+    margin: 0 0 8px;
+    margin-left: auto;
+  }
+  .navbar:hover {
+    height: 300px;
+  }
+  /*
+  .navbar:hover ul::before {
+    content: "Navigation Panel :";
+    font-weight: 600;
+  }
+  */
+  /*end navbar section */
+  /* start main section */
+  .main .main-content h1 {
+    font-size: 45px;
+  }
+  /* end main section */
+  /* start title heading */
+  p.title::after {
+    font-size: 40px;
+    font-weight: 600;
+    bottom: -4px;
+    opacity: 0.3;
+  }
+  /* end title heading */
+  /* start about section */
+  .about-me .info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-me .info .info-content h2 {
+    font-size: 22.5px;
+  }
+  .about-me .info .info-content {
+    width: 100%;
+    padding: 0;
+  }
+  .about-me .info .info-details {
+    width: 100%;
+  }
+  .about-me .info .info-details ul {
+    padding: 0;
+  }
+  .about-me .info .info-details a {
+    margin-bottom: 40px;
+  }
+  .about-me .exp {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-me .exp .exp-item {
+    width: 50%;
+  }
+  /* end about section */
+  /* start what i do section */
+  .what-i-do .w-container {
+    padding: 5px 5px;
+  }
+  .what-i-do .w-container .w-box {
+    width: 100%;
+  }
+  /* end what i do section */
+  /* start resume section */
+  .resume .container .myexp,
+  .resume .container .myedu {
+    width: 100%;
+  }
+  .resume .container .skills .sk-item {
+    width: 100%;
+  }
+  /* end resume section */
+  /* start portfolio section */
+  .portofolio .container .gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: none;
+  }
+  .portofolio .container .ga-img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* end portfolio section */
+  /* start testimonial section */
+  .testimonial .feedback .feed-box {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  /* end testimonial section */
+  /* start contact section */
+  .contact .cont-details .info,
+  .contact .cont-details .u-form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact .cont-details .info {
+    text-align: center;
+    order: 1;
+  }
+  .contact .cont-details form input:first-of-type,
+  .contact .cont-details form input:nth-of-type(2) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact .cont-details form input:nth-of-type(2) {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  /* end contact section */
+  /* start footer section */
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* end footer section */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /*start navbar section */
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3px 40px;
+    height: 50px;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    position: relative;
+  }
+  .navbar .logo {
+    width: 45%;
+  }
+  .navbar .nav-links {
+    width: 60%;
+  }
+  .navbar ul li {
+    text-align: left;
+  }
+  .navbar ul::before {
+    content: "";
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    width: 50px;
+    height: 22px;
+    display: block;
+    margin: 0 0 8px;
+    margin-left: auto;
+  }
+  .navbar ul::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 12px;
+    margin: 0 0 8px;
+    margin-left: auto;
+  }
+  .navbar:hover {
+    height: 300px;
+  }
+
+  /*end navbar section */
+  /* start main section */
+  .main .main-content h1 {
+    font-size: 60px;
+  }
+  /* end main section */
+  /* start title heading */
+  p.title::after {
+    font-size: 65px;
+    font-weight: 600;
+    bottom: -10px;
+    opacity: 0.3;
+  }
+  /* end title heading */
+  /* start about section */
+  .about-me .info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-me .info .info-content {
+    width: 100%;
+    padding: 0;
+  }
+  .about-me .info .info-details {
+    width: 100%;
+  }
+  .about-me .info .info-details ul {
+    padding: 0;
+  }
+  .about-me .info .info-details a {
+    margin-bottom: 40px;
+  }
+  .about-me .exp {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-me .exp .exp-item {
+    width: 50%;
+  }
+  /* end about section */
+  /* start what i do section */
+  .what-i-do .w-container {
+    padding: 5px 5px;
+  }
+  .what-i-do .w-container .w-box {
+    width: 100%;
+  }
+  /* end what i do section */
+  /* start resume section */
+  .resume .container .myexp,
+  .resume .container .myedu {
+    width: 100%;
+  }
+  /* end resume section */
+  /* start portfolio section */
+  .portofolio .container .gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 1200px;
+  }
+  .portofolio .container .ga-img {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+  /* end portfolio section */
+  /* start testimonial section */
+  .testimonial .feedback .feed-box {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  /* end testimonial section */
+  /* start contact section */
+  .contact .cont-details .info,
+  .contact .cont-details .u-form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact .cont-details .info {
+    text-align: center;
+    order: 1;
+  }
+  .contact .cont-details form input:first-of-type,
+  .contact .cont-details form input:nth-of-type(2) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact .cont-details form input:nth-of-type(2) {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  /* end contact section */
+  /* start footer section */
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* end footer section */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /*start navbar section */
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3px 40px;
+    height: 50px;
+    overflow: hidden;
+    transition: all 0.7s ease-in-out;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    position: relative;
+  }
+  .navbar .logo {
+    width: 45%;
+  }
+  .navbar .nav-links {
+    width: 60%;
+  }
+  .navbar ul li {
+    text-align: left;
+  }
+  .navbar ul::before {
+    content: "";
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    width: 50px;
+    height: 22px;
+    display: block;
+    margin: 0 0 8px;
+    margin-left: auto;
+  }
+  .navbar ul::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 12px;
+    margin: 0 0 8px;
+    margin-left: auto;
+  }
+  .navbar:hover {
+    height: 300px;
+  }
+  /*end navbar section */
+  /* start title heading */
+  p.title::after {
+    font-size: 80px;
+    font-weight: 600;
+    bottom: -30px;
+    opacity: 0.3;
+  }
+  /* end title heading */
+  /* start about section */
+  .about-me .info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-me .info .info-content {
+    width: 100%;
+    padding: 0;
+  }
+  .about-me .info .info-details {
+    width: 100%;
+  }
+  .about-me .info .info-details ul {
+    padding: 0;
+  }
+  .about-me .info .info-details a {
+    margin-bottom: 40px;
+  }
+  .about-me .exp {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-me .exp .exp-item {
+    width: 50%;
+  }
+  /* end about section */
+  /* start what i do section */
+  .what-i-do .w-container {
+    padding: 5px 5px;
+  }
+  .what-i-do .w-container .w-box {
+    width: 100%;
+  }
+  /* end what i do section */
+  /* start portfolio section */
+  .portofolio .container .gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 660px;
+    align-content: space-between;
+  }
+  .portofolio .container .ga-img {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  /* end portfolio section */
+  /* start testimonial section */
+  .testimonial .feedback .feed-box {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  /* end testimonial section */
+  /* start contact section */
+  .contact .cont-details .info,
+  .contact .cont-details .u-form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact .cont-details .info {
+    text-align: center;
+    order: 1;
+  }
+  /* end contact section */
+  /* start footer section */
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* end footer section */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  /* start title heading */
+  p.title::after {
+    font-size: 90px;
+    font-weight: 600;
+    bottom: -30px;
+    opacity: 0.6;
+  }
+  /* end title heading */
+  /* start about section  */
+  .about-me .info .info-content {
+    width: 65%;
+  }
+  .about-me .info .info-details {
+    width: 35%;
+  }
+  /* end about section  */
+  /* start portfolio section */
+  .portofolio .container .gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 800px;
+  }
+  .portofolio .container .ga-img {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  /* end portfolio section */
+  /* start testimonial section */
+  .testimonial .feedback .feed-box {
+    padding: 15px;
+  }
+  /* end testimonial section */
+  /* start contact section */
+  .contact .cont-details .info {
+    width: 30%;
+  }
+  .contact .cont-details .u-form {
+    width: 70%;
+  }
+  /* end contact section */
+}
